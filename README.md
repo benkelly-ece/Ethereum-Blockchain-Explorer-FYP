@@ -1,4 +1,4 @@
-# Ethereu-Blockchain-Explorer-FYP
+# Ethereum-Blockchain-Explorer-FYP
 Final Year Project - Ethereum blockchain explorer.
 
 The EtherPrice CSV will only be updated when the program is run, hence the ETH price chart will be created with out-of-date data if the program has not been run in some time. Up-to-date ETH price data is available in CSV format from https://etherscan.io/chart/etherprice

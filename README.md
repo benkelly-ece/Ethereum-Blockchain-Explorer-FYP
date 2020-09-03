@@ -1,7 +1,6 @@
 # Ethereu-Blockchain-Explorer-FYP
 Final Year Project - Ethereum blockchain explorer. READ README!
 
-To fully function this program needs to have a CSV of Ethereum Price in the project directory.
-This is for the creation of a 30 price history chart of ETH, displayed in the application.
+The EtherPrice CSV will only be updated when the program is run, hence the ETH price chart will be created with out-of-date data if the program has not been run in some time. Up-to-date ETH price data is available in CSV format from https://etherscan.io/chart/etherprice
 
-Due to the nature of the Ethereum blockchain constantly expanding in size (TB's), without a dedicated machine running an ETH node, full ETH address transaction history will not be available. For demonstration purposes a database file named 'eth_database' is used, containing the transaction history of all addresses from the first week of 2020. These are the only addresses that will successfully return data when queried.
+Due to the nature of the Ethereum blockchain constantly expanding in size (TB's), without a dedicated machine running an ETH node, and storing up-to-date transaction data on all ETH addresses the full ETH address transaction history will not be available. For demonstration purposes a database file named 'eth_database' is used, containing the transaction history of all addresses from the first week of 2020. Querying an address that was active during this time-period will return all transaction data of that address during the time period.
